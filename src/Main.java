@@ -101,6 +101,9 @@ public class Main {
         for (int i = 0; i < array.length; i++) {
             for (int j = 0; j < array.length; j++) {
                 if (array[i]+array[j]== -2) {
+                    if (array[i]>array[j]) {
+                        break;
+                    }
                     System.out.println(array[i]+" " + array[j]);
                 }
 
